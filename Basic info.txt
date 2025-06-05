@@ -1,0 +1,30 @@
+This project is a PCB design for a temperature sensor, developed in KiCad. It employs a thermistor to measure temperature, processes the signal, and provides LED indication for visual feedback.  
+
+Components
+- TH1 - Thermistor  
+- U1 - Integrated circuit  
+- T1, T2 - Transistors  
+- R1-R5 - Resistors  
+- C1 - Capacitor  
+- D1 - Diode  
+- LED1 - Indicator  
+- CON1 - Connector  
+- Power1 - Power input  
+
+ Design  
+The project includes:  
+- Schematic design** in KiCad  
+- PCB layout optimized for compactness and functionality  
+
+Files  
+- `sensor_schematic.kicad_sch` - Schematic  
+- `sensor_pcb.kicad_pcb` - PCB layout  
+
+Installation & Usage  
+1. Open the files in KiCad.  
+2. Generate Gerber files for PCB manufacturing.  
+3. Assemble components onto the PCB.  
+4. Test the sensor under various temperatures.  
+
+License  
+This project is open-source and freely available for use.  
